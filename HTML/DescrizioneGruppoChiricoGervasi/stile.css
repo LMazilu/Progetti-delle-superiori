@@ -1,0 +1,18 @@
+body {
+font-family: Verdana;
+margin-left: .5cm;
+margin-right: .5cm;
+background: -webkit-linear-gradient(AQUA, blue 25%, AQUA 50%, blue 75%, AQUA);
+}
+
+a:link{
+	text-decoration: none;
+	color: red ;
+	}
+
+
+
+
+
+
+

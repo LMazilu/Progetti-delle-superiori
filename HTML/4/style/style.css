@@ -1,0 +1,46 @@
+
+h1{
+	text-align:center;
+}
+
+
+#all{
+	display:inline;
+	width:98%;
+	height:98%;
+}
+
+#one{
+	float:right;
+	width:45%;
+	height:100%;
+	text-align:center;
+	background-size:cover;
+	background-image:url(../src/tenaciousd.jpg);
+	-webkit-box-shadow:5px 5px 12px 4px #000;
+	-moz-box-shadow:5px 5px 12px 4px #000;
+	border-style: outset;
+
+}
+
+#two{
+	float:left;
+	width:45%;
+	height:100%;
+	text-align:center;
+	border-style: outset;
+	background-size:cover;
+	background-image:url(../src/caparezza.jpg);
+	-webkit-box-shadow:5px 5px 12px 4px black;
+	-moz-box-shadow:5px 5px 12px 4px black;
+}
+
+p{
+	text-align:justify;
+	font:bold 1.2em Garamond;
+	color:#ffaa44;
+}
+
+h2{
+	color:lightgreen;;
+}

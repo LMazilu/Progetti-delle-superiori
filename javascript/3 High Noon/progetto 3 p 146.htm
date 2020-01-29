@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Benvenuti!</title>
+<script type="text/javascript">
+function Saluto(){
+	var d= new Date();
+	var h= d.getHours();
+	var m= d.getMinutes();
+	if(h < 12){
+		document.write("Buongiorno!");
+	}
+	else{
+		if(h==12 && m==0){
+		document.write("It's High noon!");
+		}
+		if(h < 17){
+			document.write("Buon Pomeriggio!");
+				}
+		else{
+			document.write("Buona sera!");
+			}
+
+	}	
+}
+</script>
+</head>
+<body onload="Saluto()">
+</body>
+</html>

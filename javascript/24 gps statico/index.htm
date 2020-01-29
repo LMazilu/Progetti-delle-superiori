@@ -1,0 +1,20 @@
+<!doctype hmtl>
+<html>
+<head>
+<title> z-index page </title>
+<style type="text/css">
+button{
+	background-color: lightred;
+	margin:10px;
+}
+</style>
+</head>
+<body>
+<h1>Mappe del Colosseo</h1>
+<button onclick="document.images[0].src='http://maps.googleapis.com/maps/api/staticmap?center=41.890617421405366,12.493300437927246&zoom=17&size=700x350&maptype=roadmap&marker=color:blue|size:mid|41.890617421405366,12.493300437927246&sensor=false'">Stradale</button>
+<button onclick="document.images[0].src='http://maps.googleapis.com/maps/api/staticmap?center=41.890617421405366,12.493300437927246&zoom=17&size=700x350&maptype=satellite&marker=color:blue|size:mid|41.890617421405366,12.493300437927246&sensor=false'">Satellitare</button>
+<button onclick="document.images[0].src='http://maps.googleapis.com/maps/api/staticmap?center=41.890617421405366,12.493300437927246&zoom=17&size=700x350&maptype=hybrid&marker=color:blue|size:mid|41.890617421405366,12.493300437927246&sensor=false'">Hybrid</button>
+<button onclick="document.images[0].src='http://maps.googleapis.com/maps/api/streetview?size=700x350&location=41.890617421405366,12.493300437927246&heading=10&fov=250&pitch=10&sensor=false'">StreetView</button>
+</br></br></br><img src="http://maps.googleapis.com/maps/api/staticmap?center=41.890617421405366,12.493300437927246&zoom=17&size=700x350&maptype=roadmap&marker=color:blue|size:mid|41.890617421405366,12.493300437927246&sensor=false">
+</body>
+</html>

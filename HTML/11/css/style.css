@@ -1,0 +1,28 @@
+h1{
+color:navy;
+text-align:center;
+}
+h2{
+color:red;
+text-align:left;
+}
+#p0{
+background-color:yellow;
+font-family:Verdana, Arial, sans-serif;
+font-size:0.8em;
+text-align:center;
+}
+#p1{
+background-color:orange;
+font-family:"Times New Roman", georgia, serif;
+font-size:1em;
+text-align:justify;
+}
+#div0{
+color:white;
+background-color:black;
+font-family:Verdana, Arial, sans-serif;
+font-size:0.9em;
+line-height:1.4;
+text-align:left;
+}

@@ -1,0 +1,41 @@
+header{
+ text-align:center;
+ background-color:yellow;
+	   }
+ 
+ nav{
+ background-color:lightblue;
+ display:block;
+ text-align:center;
+	}
+	
+	
+ nav li{
+ 
+ display:inline;
+ font-size:3vw;
+ padding:10px;
+	 }
+	 
+	  
+ #left{
+	 float:left;
+	 background-color:lightgreen;
+	 overflow:auto;
+	 width:50%;
+ }
+ 
+ #right{
+	 float:right;
+	 background-color:lightgreen;
+	 overflow:auto;
+	  width:50%;
+ }
+ #inline {
+ width:100%;}
+ 
+ a{
+	 color:#9966ff;
+	 background-color:black;
+	 
+ }

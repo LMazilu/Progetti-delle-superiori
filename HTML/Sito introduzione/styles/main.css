@@ -1,0 +1,120 @@
+*{
+
+    padding:0px;
+    margin:0px;
+}
+
+
+
+
+
+body{
+background:#2CCB13;>
+<p align="center";>
+<font size="7" color="#FF1111" face="Papyrus"; >
+margin: 0%;
+padding: 0px;
+
+
+}
+
+
+ul {
+	display: inline;
+
+	list-style-type: none;
+	padding:0;
+
+margin: 0px;
+padding: 0px;
+}
+
+ul li {
+	display: inline-block;
+
+	background: black;
+
+	color:white;
+
+	
+
+margin: 0px;
+padding: 0px 15px 0px 15px;
+
+}
+
+
+a{
+color: white;
+
+}
+
+a.gmail{
+    color: black;
+    background-color: none;
+}
+
+p {
+background: #AF7;
+color:blue;
+padding: 10px;
+
+}
+
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border: 2px solid #000000; margin:2%;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+
+#header {
+    text-align:center;
+    padding:5px;
+    margin:0;
+}
+#nav {
+    line-height:30px;s
+    height:400px;
+    width:711px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
+
+#absolute{
+
+	position: absolute;
+}
+
+
+.grande {
+	font-size: 7;
+}
+
+
+.background {
+	background-color:#FFA500;
+
+    margin: 0px;
+    
+    padding: 1% 10px 0px 5px;
+}
+

@@ -1,0 +1,139 @@
+*{
+padding:0px;
+margin:auto;
+}
+
+.Titolo{
+padding: 1%;
+font-size: 350%;
+font-family: myFirstFont;
+}
+
+@font-face {
+font-family:myFirstFont; 
+src: url(../fonts/corriereicon.woff);
+}
+
+.intestato{
+padding:0px;
+margin:0px;
+font-size :75%;
+}
+
+.padding{
+padding:1%;
+}
+
+.volte1{
+border-width: 10px;
+color: fuchsia;
+}
+
+.volte{
+border-width: 5px;
+}
+
+.inline{
+display:inline;
+}
+
+.h2{
+border-top: 3px solid #a3c2c2;
+font-weight:normal
+}
+
+.left{
+float: left;
+border-right: 3px solid #cccccc;
+}
+
+.right{
+float: right;
+left:0;
+}
+
+.p1{
+font-size: 1.9vw ;
+text-align: center;
+}
+
+.h1{
+font-size: 5.319vw ;
+text-align: center;
+}
+
+.p2{
+font-size: 3.11vw ;
+text-align: center;
+}
+
+.divincontro{
+color : #007aac;
+}
+
+.sottoObama{
+	background-color:#ddeeff;
+	
+}
+
+.dd{
+	
+	display: inline;
+	float: left;
+	
+}
+h3{
+color:#3366cc;
+background-color:#ddeeff;
+}
+
+.commento{
+	background-color:#ddeeff;
+	width:680px;
+	
+}
+
+.commento2{
+	width:2000px;
+}
+
+.scritte{
+	float: left;
+}
+
+.white{
+	background-color:#ffffff;
+}
+
+.h6{
+	background-color:#ffffff;
+}
+
+.intervista{
+	display:inline;
+	color : white;
+	width:30%;
+	background-color: #004466;
+	font-size: 19px;
+}
+.intervista2{
+	display:inline;
+	width:70%;
+	font-size: 19px;
+
+}
+
+
+
+.bord{
+	width:600px;
+	border-bottom-style:solid;
+}
+
+.img{
+	float:right;
+}
+
+.sacripante{
+	float:right;
+}

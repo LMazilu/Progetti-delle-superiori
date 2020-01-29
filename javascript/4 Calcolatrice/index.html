@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script type="text/javascript" src="calcola.js">
+</script>
+</head>
+
+<title>canvas capitalize</title>
+<body>
+<table cellspacing="0" cellpadding="0">
+<tr>
+    <td height="40" colspan="4" align="right">
+	<input type="text" id="display" style="width:80px; height:20px;">
+	</td>
+</tr>
+
+<tr>
+
+    <td><input type="button" value="7" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=7"></td>
+	
+	<td><input type="button" value="8" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=8"></td>
+	
+	<td><input type="button" value="9" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=9"></td>
+	
+	<td><input type="button" value="/" style="width:20px; height:20px;" onclick="diviso()"></td>
+	
+</tr>
+
+<tr>
+	
+	<td><input type="button" value="4" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=4"></td>
+	
+	<td><input type="button" value="5" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=5"></td>
+	
+	<td><input type="button" value="6" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=6"></td>
+	
+	<td><input type="button" value="x" style="width:20px; height:20px;" onclick="per()"></td>
+	
+</tr>	
+	
+<tr>
+	
+	<td><input type="button" value="1" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=1"></td>
+	
+	<td><input type="button" value="2" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=2"></td>
+	
+	<td><input type="button" value="3" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=3"></td>
+	
+	<td><input type="button" value="-" style="width:20px; height:20px;" onclick="meno()"></td>
+	
+</tr>	
+
+<tr>
+
+<td><input type="button" value="0" style="width:20px; height:20px;" onclick="document.getElementById('display').value+=0"></td>
+
+<td><input type="button" value="C" style="width:20px; height:20px;" onclick="document.getElementById('display').value='';val1=0;"></td>
+
+<td><input type="button" value="=" style="width:20px; height:20px;" onclick="uguale()"></td>
+
+<td><input type="button" value="+" style="width:20px; height:20px;" onclick="piu()"></td>
+
+</tr>
+</table>
+</body>
+</html>

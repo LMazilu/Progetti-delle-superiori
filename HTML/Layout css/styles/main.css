@@ -1,0 +1,60 @@
+*{
+	margin:0px;
+	padding:0px;
+ }
+.pagina {
+    width: 100%; height: 100%; 
+		}
+
+header{ 
+	position: absolute; 
+	width: 100%; 
+	height: 150px; 
+	top: 0; 
+	right: 0;
+	left: 0;
+	overflow: auto;
+	background-color:yellow;
+	border-radius: 10px;
+		 }
+
+nav { 
+	position: absolute; 
+	width: 25%; 
+	height: 70%; 
+	right: 75%; 
+	left: 0;
+	top: 15; 
+	bottom: 15%; 
+	background: green; 
+	overflow: auto;
+	border-radius: 10px; 
+		  }
+
+section { 
+	position: absolute; 
+	width: 75%;
+	height: 70%; 
+	top: 15%;
+	right: 0;
+	left: 25%; 
+	background: blue; 
+	overflow: auto;
+	border-radius: 10px;
+		 }
+
+footer { 
+	position: absolute; 
+	width: 100%; 
+	height: 150px;
+	right: 0%; 
+	bottom: 0%;
+    left: 0%; 
+    overflow: none; 
+    background: aqua;
+    border-radius: 10px; 
+	}
+
+	footer:hover{
+		
+	}
